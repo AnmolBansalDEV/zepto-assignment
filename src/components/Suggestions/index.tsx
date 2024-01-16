@@ -4,6 +4,7 @@ type SuggestionsData = {
   id: string;
   imageUrl: string;
   title: string;
+  selected: boolean,
   description: string;
 };
 
