@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-type Data = Record<string, string>;
+type Data = Record<string, any>;
 
 export function useFilter(dataList: Data[], callback: (data: Data) => string) {
   const [query, setQuery] = useState<string>("");
